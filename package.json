@@ -1,0 +1,16 @@
+{
+  "name": "league-fm-rpc",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence voor League-FM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jace (itsdevjace)",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.3.1",
+    "socket.io-client": "^4.7.2"
+  }
+}
