@@ -196,8 +196,9 @@ Zie het [LICENSE](LICENSE) bestand voor meer informatie.
 | Naam | Bijdrage |
 |---|---|
 | **Jace (itsdevjace)** | Maker van League-FM RPC |
-| **League-FM** | Radio station & API 2026–2027 |
-| **discord-rpc** | Discord Rich Presence library |
+| **League-FM** | Radio Station LFM |
+| **League-FM API** | API library |
+| **api.jace.dev** | API library Discord Connectie |
 
 ---
 
