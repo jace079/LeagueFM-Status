@@ -121,7 +121,11 @@ Voor de mooiste Discord status moet je het League-FM logo uploaden:
 5. Upload een LIVE icoon en noem het: `live_icon`
 6. Sla op met **"Save Changes"**
 
-> 🖼️ Download het League-FM logo op: Logo: (https://logo.jace.dev.nl/leaguefm-blauw)[https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp?ex=6a306b34&is=6a2f19b4&hm=9d96a713cbf1e33f7a07bf105e211c3be7566f3224b3d6c84025cbd570d51983&=&format=webp&width=126&height=144]
+> 🖼️ Download het League-FM logo op:
+
+[logo.jace.dev/leaguefm-1](https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp)
+
+![League-FM logo](https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp)
 
 ### Stap 6 — Application ID plakken
 
