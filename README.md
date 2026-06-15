@@ -204,8 +204,8 @@ Zie het [LICENSE](LICENSE) bestand voor meer informatie.
 
 <div align="center">
 
-**Gemaakt met ❤️ door [Jace (itsdevjace)](https://github.com/itsdevjace)**
+**Gemaakt met ❤️ door [Jace (itsdevjace)](https://github.com/jace079)**
 
-[🎧 Luister naar League-FM](https://league-fm.nl) · [💬 Join de Discord](https://discord.gg/leaguefm)
+[🎧 Luister naar League-FM](https://league-fm.nl) · [💬 Join de Discord](https://discord.gg/leaguefm) [🎧 Progamma](https://league-fm.nl/programma)
 
 </div>
