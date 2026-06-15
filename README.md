@@ -20,16 +20,13 @@ League-FM RPC is een open-source Discord Rich Presence applicatie waarmee League
 
 ---
 
-## ✨ Features
+## LeagueFM Verificatie
 
-| Feature | Status |
-|---|---|
-| ✓ Discord Rich Presence | Volledig werkend |
-| ✓ LeagueFM Branding | Logo + LIVE icoon |
-| ✓ Open Source | MIT Licentie |
-| ✓ Automatische Setup | Via setup.bat |
-| ✓ API Ondersteuning | League-FM API |
-| ✓ GitHub Ready | Direct uploadbaar |
+Deze applicatie werkt alleen als je een DJ bent bij league-fm. 
+
+Dit progamma checkt via jou naam of je in de discord zit en op de website staat. 
+
+Ik (jace) verwerk geen gegevens van jullie
 
 ---
 
@@ -43,8 +40,8 @@ Zo ziet jouw Discord status eruit:
 │                                 │
 │  [LeagueFM Logo]  🔴 LIVE       │
 │                                 │
-│  Over 7 Dagen Live              │
-│  By Jace - itsdevjace           │
+│  Nummer - Song                  │
+│  DJ                             │
 │                                 │
 │  🎵 Huidig nummer               │
 │  ⏱️  24:42:23                   │
@@ -66,11 +63,7 @@ Zo ziet jouw Discord status eruit:
 ### Installatie
 
 1. **Download het project**
-   ```bash
-   git clone https://github.com/itsdevjace/league-fm-rpc.git
-   cd league-fm-rpc
-   ```
-   Of download als ZIP via de groene "Code" knop op GitHub
+   download als ZIP via de groene "Code" knop op GitHub
 
 2. **Maak een Discord Applicatie** (zie handleiding hieronder)
 
@@ -79,14 +72,7 @@ Zo ziet jouw Discord status eruit:
    Dubbelklik op `setup.bat` — de installer doet de rest!
 
 4. **Start de RPC**
-
-   Dubbelklik op `start.bat` (wordt aangemaakt door de installer)
-   
-   Of start handmatig:
-   ```bash
-   node index.js
-   ```
-
+   Volg de instructies verder om verder te gaan
 ---
 
 ## 🎮 Discord Applicatie Aanmaken
@@ -108,7 +94,7 @@ Klik op de blauwe knop **"New Application"** rechtsboven.
 
 Geef je applicatie de naam:
 ```
-LeagueFM | Mixxx
+LeagueFM 
 ```
 
 > Deze naam verschijnt in je Discord status als "speelt LeagueFM | Mixxx"
@@ -125,6 +111,7 @@ Klik op **"Copy"** om de ID te kopiëren. Deze ID heb je nodig in de installer.
 
 ### Stap 5 — Logo uploaden
 
+
 Voor de mooiste Discord status moet je het League-FM logo uploaden:
 
 1. Klik in het linkermenu op **"Rich Presence"**
@@ -134,7 +121,7 @@ Voor de mooiste Discord status moet je het League-FM logo uploaden:
 5. Upload een LIVE icoon en noem het: `live_icon`
 6. Sla op met **"Save Changes"**
 
-> 🖼️ Download het League-FM logo op: https://league-fm.nl
+> 🖼️ Download het League-FM logo op: Logo: (https://logo.jace.dev.nl/leaguefm-blauw)[https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp?ex=6a306b34&is=6a2f19b4&hm=9d96a713cbf1e33f7a07bf105e211c3be7566f3224b3d6c84025cbd570d51983&=&format=webp&width=126&height=144]
 
 ### Stap 6 — Application ID plakken
 
@@ -149,69 +136,12 @@ Voer `setup.bat` uit en plak de Application ID wanneer ernaar gevraagd wordt.
 
 ---
 
-## ⚙️ Handmatige Configuratie
-
-Als je de installer niet wilt gebruiken, kun je ook handmatig instellen:
-
-1. Kopieer `.env.example` naar `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Bewerk `.env` met een teksteditor:
-   ```env
-   DISCORD_CLIENT_ID=jouw_application_id_hier
-   STATION_ID=1
-   UPDATE_INTERVAL=15000
-   ```
-
-3. Installeer de dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start de applicatie:
-   ```bash
-   node index.js
-   ```
-
----
-
-## 📁 Projectstructuur
-
-```
-league-fm-rpc/
-│
-├── index.js          # Hoofdbestand — de RPC logica
-├── package.json      # Project informatie en dependencies
-├── .env              # Jouw configuratie (aangemaakt door installer)
-├── .env.example      # Voorbeeld configuratie
-├── setup.bat         # Windows installer
-├── start.bat         # Snelstart (aangemaakt door installer)
-├── LICENSE           # MIT Licentie
-└── README.md         # Dit bestand
-```
-
----
-
-## 🔧 Configuratie Opties
-
-In je `.env` bestand kun je het volgende instellen:
-
-| Variabele | Standaard | Beschrijving |
-|---|---|---|
-| `DISCORD_CLIENT_ID` | — | Jouw Discord Application ID (verplicht) |
-| `STATION_ID` | `1` | Het League-FM station ID |
-| `UPDATE_INTERVAL` | `15000` | Update interval in milliseconden |
-
----
-
 ## 🌐 API
 
 Deze applicatie maakt gebruik van de League-FM API:
 
 ```
-GET http://api.league-fm.nl/deezer/proxy/{station_id}
+GET http://api.league-fm.nl/
 ```
 
 De API geeft informatie terug over het nummer dat op dit moment speelt, waaronder de artiest, titel en afspeelduur.
@@ -243,18 +173,11 @@ De API geeft informatie terug over het nummer dat op dit moment speelt, waaronde
 - De namen moeten **exact** `leaguefm_logo` en `live_icon` zijn
 - Het kan 10-15 minuten duren voordat nieuwe afbeeldingen zichtbaar zijn
 
----
+- ### Contact Opnemen
 
-## 🤝 Bijdragen
-
-Bijdragen zijn welkom! Zo kun je meehelpen:
-
-1. Fork het project op GitHub
-2. Maak een nieuwe branch: `git checkout -b feature/mijn-feature`
-3. Maak je aanpassingen
-4. Commit: `git commit -m 'Voeg mijn feature toe'`
-5. Push: `git push origin feature/mijn-feature`
-6. Open een Pull Request
+Email: Jacelentze.zm@gmail.com
+Tel: +31 6 49220090
+Discord: itsdevjace
 
 ---
 
