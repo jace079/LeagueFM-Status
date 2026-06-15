@@ -123,9 +123,8 @@ Voor de mooiste Discord status moet je het League-FM logo uploaden:
 
 > 🖼️ Download het League-FM logo op:
 
-[logo.jace.dev/leaguefm-1](https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp)
+[http://logo.jace.dev/leaguefm-1](https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp)
 
-![League-FM logo](https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp)
 
 ### Stap 6 — Application ID plakken
 
