@@ -75,7 +75,7 @@ Zo ziet jouw Discord status eruit:
    Volg de instructies verder om verder te gaan
 ---
 
-## 🎮 Discord Applicatie Aanmaken
+## Discord Applicatie Aanmaken
 
 Om League-FM RPC te gebruiken heb je een eigen Discord applicatie nodig.
 Dit is gratis en duurt maar 2 minuten.
@@ -121,7 +121,7 @@ Voor de mooiste Discord status moet je het League-FM logo uploaden:
 5. Upload een LIVE icoon en noem het: `live_icon`
 6. Sla op met **"Save Changes"**
 
-> 🖼️ Download het League-FM logo op:
+>  Download het League-FM logo op:
 
 [http://logo.jace.dev/leaguefm-1](https://media.discordapp.net/attachments/1410524828426960938/1515464397059919882/OIP.webp)
 
@@ -139,7 +139,7 @@ Voer `setup.bat` uit en plak de Application ID wanneer ernaar gevraagd wordt.
 
 ---
 
-## 🌐 API
+## API
 
 Deze applicatie maakt gebruik van de League-FM API:
 
@@ -151,7 +151,7 @@ De API geeft informatie terug over het nummer dat op dit moment speelt, waaronde
 
 ---
 
-## 🐛 Problemen Oplossen
+## Problemen Oplossen
 
 ### Discord status verschijnt niet
 
