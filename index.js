@@ -37,9 +37,6 @@ let showNaam = DISCORD_NAME;
 let ingeklokt = false;
 let showStartTime = null;
 
-// =============================================
-// KEUZEMENU
-// =============================================
 
 function toonMenu() {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
@@ -96,9 +93,6 @@ function toonMenu() {
   });
 }
 
-// =============================================
-// SOCKET.IO
-// =============================================
 
 function startSocket() {
   console.log("  [SOCKET] Verbinden met League-FM API...");
@@ -141,9 +135,6 @@ function startSocket() {
   return socket;
 }
 
-// =============================================
-// DISCORD PRESENCE
-// =============================================
 
 async function updatePresence() {
   if (!isConnected) return;
@@ -200,9 +191,6 @@ async function updatePresence() {
   }
 }
 
-// =============================================
-// DISCORD VERBINDING
-// =============================================
 
 async function connectToDiscord() {
   try {
@@ -249,9 +237,6 @@ client.on("disconnected", () => {
   setTimeout(connectToDiscord, 5000);
 });
 
-// =============================================
-// IN/UIT KLOKKEN LOOP
-// =============================================
 
 function startCommandLoop() {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout, terminal: false });
@@ -283,9 +268,6 @@ function startCommandLoop() {
   });
 }
 
-// =============================================
-// START
-// =============================================
 
 function startApp() {
   const socket = startSocket();
@@ -304,8 +286,6 @@ function startApp() {
   process.on("SIGTERM", shutdown);
 }
 
-// =============================================
-// BANNER
 // =============================================
 
 console.log("");
